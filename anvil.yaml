@@ -1,5 +1,8 @@
 correct_dependency_ids: {}
-dependencies: []
+dependencies:
+- dep_id: dep_t158hkerjphodg
+  version: {dev: false}
+  resolution_hints: {app_id: EV2EC4ROKNTSDFAE, name: Rally App 1, package_name: Rally_App_1}
 services:
 - source: /runtime/services/tables.yml
   client_config: {enable_v2: true}
