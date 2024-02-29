@@ -17,8 +17,9 @@ services:
 startup: {type: form, module: Login}
 package_name: Rally_theme
 allow_embedding: false
-name: Clone of Expense Approval App (3)
+name: ArcTecFoxMVP
 runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+metadata: {title: ArcTecFox}
 startup_form: null
 native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
     rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}

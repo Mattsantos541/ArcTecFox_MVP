@@ -7,7 +7,16 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - name: label_1
+    properties: {align: center, text: ArcTecFox}
+    type: Label
+    layout_properties: {grid_position: 'SCAFOC,GRXSWD'}
+  - name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+    layout_properties: {grid_position: 'OZOUBY,GBSQGB'}
+    components: []
 - type: ColumnPanel
   properties: {col_widths: '{}'}
   name: column_panel_2
